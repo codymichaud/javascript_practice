@@ -23,6 +23,14 @@ else {
     alert("You must like UW?!?!")
 }
 
-if (firstGame !== 7) {
-    prompt("How old were you at your first WSU game?")
+var greeting2 = prompt("How old were you at your first WSU game?")
+
+
+if (greeting2 == 8)
+    alert("Thats how old i was!!")
+else if (greeting2 < 8) {
+    alert("I was older than that.")
+}
+else if (greeting2 > 8) {
+    alert("I was younger than that.")
 }
